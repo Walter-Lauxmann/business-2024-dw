@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan System</title>
+</head>
+
+<body>
+    <header>
+        <h1>BUSINESS PLAN SYSTEM</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./">Inicio</a></li>
+            <li><a href="mision.html">Misión</a></li>
+            <li><a href="objetivos.html">Objetivos</a></li>
+            <li><a href="metodologia.html">Metodología</a></li>
+            <li><a href="resultados.html">Resultados</a></li>
+            <li><a href="contactenos.html">Contáctenos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>CONTÁCTENOS</h2>
+            <form action="mailto:info@business.com" method="post">
+                <table border="1" width="100%">
+                    <tr>
+                        <td>NOMBRE *</td>
+                        <td><input type="text" name="nombre" placeholder="Ingrese su nombre" required /></td>
+                    </tr>
+                    <tr>
+                        <td>DIRECCIÓN</td>
+                        <td><input type="text" name="direccion" placeholder="Ingrese la dirección" /></td>
+                    </tr>
+                    <tr>
+                        <td>TELÉFONO</td>
+                        <td><input type="tel" name="telefono" placeholder="Ingrese su teléfono" /></td>
+                    </tr>
+                    <tr>
+                        <td>MAIL</td>
+                        <td><input type="email" name="mail" placeholder="usuario@servidor.com" /></td>
+                    </tr>
+                    <tr>
+                        <td>LOCALIDAD</td>
+                        <td><input type="text" name="localidad" placeholder="Ingrese la localidad" /></td>
+                    </tr>
+                    <tr>
+                        <td>PROVINCIA</td>
+                        <td><input type="text" name="provincia" placeholder="Ingrese la provincia" /></td>
+                    </tr>
+                    <tr>
+                        <td>FECHA NACIMIENTO</td>
+                        <td><input type="date" name="fechanac" placeholder="dd/mm/aaaa" /></td>
+                    </tr>
+                    <tr>
+                        <td>EDAD</td>
+                        <td><input type="number" name="edad" /></td>
+                    </tr>
+                    <tr>
+                        <td>SEXO</td>
+                        <td>
+                            <input type="radio" name="sexo" value="masculino" />Masculino <br />
+                            <input type="radio" name="sexo" value="femenino" />Femenino
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FORMA DE PAGO</td>
+                        <td>
+                            <select name="formapago">
+                                <option value="">Tarjeta</option>
+                                <option value="">Depósito Bancario</option>
+                                <option value="">Rapipago / Pago Fácil</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar" /></td>
+                        <td><input type="reset" value="Cancelar"></td>
+                    </tr>
+                </table>
+                <p>* Este campo es obligatorio</p>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>Business Plan System - Todos los derechos reservados - 2023</p>
+    </footer>
+</body>
+
+</html>
